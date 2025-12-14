@@ -30,11 +30,7 @@ The system covers the following functional areas:
 📂 LibraryManagementSystem/
 ├── 📂 backend/
 │   ├── library_backend.py
-│   ├── auth.py
-│   ├── 🎵 error.wav
-│   ├── 🎵 select.wav
-│   ├── 🎵 statDown.wav
-│   └── 🎵 statUp.wav
+│   └── auth.py
 |
 ├── 📂 components/
 │   └── widgets.py
@@ -83,7 +79,7 @@ The database design follows **Third Normal Form (3NF)**:
 - Git (optional)
 
 ### Step 1: Database Setup
-```bash
+```
 # Login to MariaDB
 mysql -u root -p
 
@@ -122,72 +118,68 @@ Username: admin
 Password: Admin@123
 Email: admin@library.com
 
-##💻 Usage Guide
-Starting the Application:
+##💻 Run App:
 python main.py
+```
 
-User Roles & Permissions:
--Admin: Full system access, user management
--Librarian: Book and borrower management, transaction processing
--Borrower: View available books, personal borrowing history
+### User Roles & Permissions:
+- Admin: Full system access, user management
+- Librarian: Book and borrower management, transaction processing
+- Borrower: View available books, personal borrowing history
 
-#Key Features
-📖 Book Management:
--Add new books with title, author, ISBN, category
--Update book information and copies
--Search books by title, author, category, or ISBN
--Delete books (with validation for active loans)
+# Key Features:
+### 📖 Book Management:
+- Add new books with title, author, ISBN, category
+- Update book information and copies
+- Search books by title, author, category, or ISBN
+- Delete books (with validation for active loans)
 
-👥 Borrower Management:
--Register new library members
--Update borrower information
--Track active loans and borrowing history
--Search borrowers by name, email, or phone
+### 👥 Borrower Management:
+- Register new library members
+- Update borrower information
+- Track active loans and borrowing history
+- Search borrowers by name, email, or phone
 
-🔄 Transaction Processing
+### 🔄 Transaction Processing
 -Borrow books with automatic due date calculation
 -Return books with fine calculation ($5/day overdue)
 -View active loans and overdue books
 -Process payments for fines
 
-📊 Reports & Analytics
--System statistics dashboard
--Monthly transaction reports
--Popular books and active borrowers
--Category-based analysis
--Custom date range reports
+### 📊 Reports & Analytics
+- System statistics dashboard
+- Monthly transaction reports
+- Popular books and active borrowers
+- Category-based analysis
+- Custom date range reports
 
-#🔧 CRUD Operations Implementation
-Create Operations:
--add_book() - Add new books to inventory
--add_borrower() - Register new library members
--borrow_book() - Create new loan transactions
--register_user() - Create new system users
+## 🔧 CRUD Operations Implementation:
+###Create Operations:
+- add_book() - Add new books to inventory
+- add_borrower() - Register new library members
+- borrow_book() - Create new loan transactions
+- register_user() - Create new system users
 
-Read Operations
--get_all_books() - Retrieve all books
--search_books() - Search with various criteria
--get_active_loans() - View current borrowings
--get_system_statistics() - Dashboard data
+### Read Operations
+- get_all_books() - Retrieve all books
+- search_books() - Search with various criteria
+- get_active_loans() - View current borrowings
+- get_system_statistics() - Dashboard data
 
-Update Operations
--update_book() - Modify book information
--update_borrower() - Update member details
--return_book() - Update transaction status
--update_profile() - User profile updates
+### Update Operations
+- update_book() - Modify book information
+- update_borrower() - Update member details
+- return_book() - Update transaction status
+- update_profile() - User profile updates
 
-Delete Operations
--delete_book() - Remove books (with validation)
--delete_borrower() - Remove members (with validation)
+### Delete Operations
+- delete_book() - Remove books (with validation)
+- delete_borrower() - Remove members (with validation)
 
-#👨‍💻 Developer
-Jon Paul S. Berana
-IT 211 - Database Management System
-First Semester, A.Y. 2025-2026
+# 👨‍💻 Developer
+- Jon Paul S. Berana
+- CS 2102 - IT 211 - Database Management System
+- First Semester, A.Y. 2025-2026
 
-#📄 License
+# 📄 License
 This project is developed for educational purposes as part of IT 211 - Database Management System course requirements.
-
-
-
-
