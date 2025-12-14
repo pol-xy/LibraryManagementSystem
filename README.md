@@ -79,7 +79,7 @@ The database design follows **Third Normal Form (3NF)**:
 - Git (optional)
 
 ### Step 1: Database Setup
-```bash
+```
 # Login to MariaDB
 mysql -u root -p
 
@@ -117,6 +117,7 @@ Default admin credentials:
 Username: admin
 Password: Admin@123
 Email: admin@library.com
+```
 
 ##💻 Usage Guide
 Starting the Application:
