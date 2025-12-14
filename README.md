@@ -117,29 +117,28 @@ Default admin credentials:
 Username: admin
 Password: Admin@123
 Email: admin@library.com
+
+##💻 Run App:
+python main.py
 ```
 
-##💻 Usage Guide
-Starting the Application:
-python main.py
-
 User Roles & Permissions:
--Admin: Full system access, user management
--Librarian: Book and borrower management, transaction processing
--Borrower: View available books, personal borrowing history
+- Admin: Full system access, user management
+- Librarian: Book and borrower management, transaction processing
+- Borrower: View available books, personal borrowing history
 
 #Key Features
 📖 Book Management:
--Add new books with title, author, ISBN, category
--Update book information and copies
--Search books by title, author, category, or ISBN
--Delete books (with validation for active loans)
+- Add new books with title, author, ISBN, category
+- Update book information and copies
+- Search books by title, author, category, or ISBN
+- Delete books (with validation for active loans)
 
 👥 Borrower Management:
--Register new library members
--Update borrower information
--Track active loans and borrowing history
--Search borrowers by name, email, or phone
+- Register new library members
+- Update borrower information
+- Track active loans and borrowing history
+- Search borrowers by name, email, or phone
 
 🔄 Transaction Processing
 -Borrow books with automatic due date calculation
@@ -148,38 +147,38 @@ User Roles & Permissions:
 -Process payments for fines
 
 📊 Reports & Analytics
--System statistics dashboard
--Monthly transaction reports
--Popular books and active borrowers
--Category-based analysis
--Custom date range reports
+- System statistics dashboard
+- Monthly transaction reports
+- Popular books and active borrowers
+- Category-based analysis
+- Custom date range reports
 
 #🔧 CRUD Operations Implementation
 Create Operations:
--add_book() - Add new books to inventory
--add_borrower() - Register new library members
--borrow_book() - Create new loan transactions
--register_user() - Create new system users
+- add_book() - Add new books to inventory
+- add_borrower() - Register new library members
+- borrow_book() - Create new loan transactions
+- register_user() - Create new system users
 
 Read Operations
--get_all_books() - Retrieve all books
--search_books() - Search with various criteria
--get_active_loans() - View current borrowings
--get_system_statistics() - Dashboard data
+- get_all_books() - Retrieve all books
+- search_books() - Search with various criteria
+- get_active_loans() - View current borrowings
+- get_system_statistics() - Dashboard data
 
 Update Operations
--update_book() - Modify book information
--update_borrower() - Update member details
--return_book() - Update transaction status
--update_profile() - User profile updates
+- update_book() - Modify book information
+- update_borrower() - Update member details
+- return_book() - Update transaction status
+- update_profile() - User profile updates
 
 Delete Operations
--delete_book() - Remove books (with validation)
--delete_borrower() - Remove members (with validation)
+- delete_book() - Remove books (with validation)
+- delete_borrower() - Remove members (with validation)
 
 #👨‍💻 Developer
 Jon Paul S. Berana
-IT 211 - Database Management System
+CS 2102 - IT 211 - Database Management System
 First Semester, A.Y. 2025-2026
 
 #📄 License
