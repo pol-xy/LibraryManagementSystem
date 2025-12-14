@@ -30,11 +30,7 @@ The system covers the following functional areas:
 📂 LibraryManagementSystem/
 ├── 📂 backend/
 │   ├── library_backend.py
-│   ├── auth.py
-│   ├── 🎵 error.wav
-│   ├── 🎵 select.wav
-│   ├── 🎵 statDown.wav
-│   └── 🎵 statUp.wav
+│   └── auth.py
 |
 ├── 📂 components/
 │   └── widgets.py
