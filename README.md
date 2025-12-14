@@ -127,33 +127,33 @@ python main.py
 - Librarian: Book and borrower management, transaction processing
 - Borrower: View available books, personal borrowing history
 
-# Key Features
-###📖 Book Management:
+# Key Features:
+### 📖 Book Management:
 - Add new books with title, author, ISBN, category
 - Update book information and copies
 - Search books by title, author, category, or ISBN
 - Delete books (with validation for active loans)
 
-###👥 Borrower Management:
+### 👥 Borrower Management:
 - Register new library members
 - Update borrower information
 - Track active loans and borrowing history
 - Search borrowers by name, email, or phone
 
-###🔄 Transaction Processing
+### 🔄 Transaction Processing
 -Borrow books with automatic due date calculation
 -Return books with fine calculation ($5/day overdue)
 -View active loans and overdue books
 -Process payments for fines
 
-###📊 Reports & Analytics
+### 📊 Reports & Analytics
 - System statistics dashboard
 - Monthly transaction reports
 - Popular books and active borrowers
 - Category-based analysis
 - Custom date range reports
 
-##🔧 CRUD Operations Implementation
+## 🔧 CRUD Operations Implementation:
 ###Create Operations:
 - add_book() - Add new books to inventory
 - add_borrower() - Register new library members
@@ -177,9 +177,9 @@ python main.py
 - delete_borrower() - Remove members (with validation)
 
 # 👨‍💻 Developer
-Jon Paul S. Berana
-CS 2102 - IT 211 - Database Management System
-First Semester, A.Y. 2025-2026
+- Jon Paul S. Berana
+- CS 2102 - IT 211 - Database Management System
+- First Semester, A.Y. 2025-2026
 
 # 📄 License
 This project is developed for educational purposes as part of IT 211 - Database Management System course requirements.
